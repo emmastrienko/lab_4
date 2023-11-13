@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Космічна веб розробка: створюй сайти, що заслуговують на зірки</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/cosmos4.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@800&family=Lato:wght@400;900&family=Roboto:wght@100&display=swap" rel="stylesheet">
+<script src="first.js"></script>
+</head>
+<body>
+  
+    <header>
+      <h1>Космічна веб-розробка: створюй сайти, що заслуговують на зірки</h1>
+      <label for='dropdown'>
+        <select id='dropdown' onchange="location=this.value;">
+          <option><a href="#">Головна сторінка</a></option>
+          <option value="courses.html"><a href="courses.html">Курси</a></option>
+          <option value="questionsry.html">Реєстрація</option>
+        </select>
+      </label>
+      <ul>
+        <a href="#"><li>Головна сторінка</li></a>
+        <a href="courses.html"><li>Курси</li></a>
+        <a href="questionsry.html"><li>Реєстрація</li></a>
+      </ul>
+    </header>
+
+    <section>
+      <article class="grid">
+        <div class="image">
+        <img src="images/cosmos3.jpg" alt="">
+        </div>
+        <div class="textbox"><p><b>Місія 1: Спутник.</b> Навчись створювати статичні сайти на HTML і CSS, які показують інформацію про різні спутники Землі.</p></div>
+      </article>
+
+      <article class="grid">
+        <div class="textbox"><p><b>Місія 2: Марс.</b> Навчись додавати інтерактивність до своїх сайтів за допомогою JavaScript, які дозволяють користувачам взаємодіяти з марсоходами на Марсі.</p></div>
+        <div class="image">
+        <img src="images/cosmos4.jpg" alt="">
+        </div>
+      </article>
+
+      <article class="grid">
+        <div class="image">
+        <img src="images/cosmos_5.jpg" alt="">
+        </div>
+        <div class="textbox"><p><b>Місія 3: Астероїд.</b> Навчись використовувати фреймворки, такі як Bootstrap або Materialize, для створення адаптивних сайтів, які пристосовуються до розміру екрану і показують дані про астероїди, що наближаються до Землі.</p></div>
+      </article>
+
+      <article class="grid">
+        <div class="textbox"><p><b>Місія 4: Чорна діра.</b> Навчись використовувати серверну частину, таку як Node.js або PHP, для створення динамічних сайтів, які зберігають і обробляють дані на сервері і показують ефекти чорної діри на своїх сторінках.</p></div>
+        <div class="image">
+        <img src="images/cosmos6.jpg" alt="">
+        </div>
+      </article>
+
+      <article class="grid">
+        <div class="image">
+        <img src="images/cosmos7.jpg" alt="">
+        </div>
+        <div class="textbox"><p><b>Місія 5: Галактика.</b> Навчись використовувати бази даних, такі як MongoDB або MySQL, для створення складних сайтів, які збережуть і виведуть інформацію про різні галактики та їх зоряні системи.</p></div>
+      </article>
+    </section>
+
+    <footer>
+      <p>Записатися на курс</p>
+      <a href="questionsry.html">to form</a>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path opacity="0.5" d="M11.25 20C11.25 20.4142 11.5858 20.75 12 20.75C12.4142 20.75 12.75 20.4142 12.75 20H11.25ZM12.75 20L12.75 4L11.25 4L11.25 20H12.75Z" fill="#fff"></path> <path d="M18 10L12 4L6 10" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></button>
+
+  
+</body>
+</html>

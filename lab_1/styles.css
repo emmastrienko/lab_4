@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@800&family=Kenia&family=Lato:wght@400;900&family=Roboto:wght@100&display=swap');
+
+
+body{
+  background-color: #4B1C78;
+}
+
+h1{
+  font-family: 'Kenia', sans-serif;
+}
+
+header{
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  background-color: #371557;
+}
+
+ul li{
+  color: #fff;
+  display: inline;
+  padding: 0px 20px;
+  font-size: 20px;
+}
+
+ul{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  font-size: 20px;
+}
+
+article {
+  margin: 50px;
+}
+
+.image{
+  width: 30%;
+  max-width: 300px;
+  border-radius: 100%;
+  margin: 0 10px;
+}
+
+article img{
+  width: 100%;
+  max-width: 300px;
+  border-radius: 100%;
+  margin: 0 10px;
+}
+article p{
+ /* width: 90%;*/
+  color: white;
+}
+
+.grid{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.textbox{
+  width: 70%;
+  background: linear-gradient(to bottom, #B91EC3, #852ba0);
+  /*background-color: #B91EC3;*/
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  margin: 0;
+  background-color: #371557;
+}
+
+a, p{
+  color: white;
+}
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  background-color: rgba(48, 48, 49, 0.781);
+}
+
+#myBtn svg {
+  width: 24px; 
+  height: 24px;
+}

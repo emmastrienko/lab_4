@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Реєстрація</title>
+  <link rel="stylesheet" href="forms.css">
+  <link rel="icon" href="images/cosmos4.jpg">
+</head>
+<body>
+  <header>
+    <h1 id='title'>Реєструйся на курс Космічної Веб-Розробки</h1>
+    <ul>
+      <a href="index.html"><li>Головна сторінка</li></a>
+      <a href="courses.html"><li>Курси</li></a>
+      <a href="#"><li>Реєстрація</li></a>
+    </ul>
+  </header>
+    <form>
+      <label for='name-label'>Повне ім'я:<input id='name-label' id='name' type='text' placeholder='Enter your name'/></label>
+      <label for='email-label'>Email <input id='email-label' id='email' type='email' placeholder='Enter your Email'/></label>
+      <label for='number-label'>Вік<input id='number-label' id='number' type='number' min='10' max='99'/></label>
+      <label for='password-label'>Пароль<input id='password-label' id='password' type='password' placeholder='Enter your Password'/></label>
+      <label for='dropdown'>Яка з цих опцій описує вас:
+        <select id='dropdown'>
+          <option>Студент</option>
+          <option>Працюю</option>
+          <option>Вчуся</option>
+          <option>Інше</option>
+        </select>
+      </label>
+    </form>
+</body>
+</html>
